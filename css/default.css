@@ -51,11 +51,10 @@ fieldset {
     position: fixed;
     transform: scale(0);
 }
-.container {
-    max-width: calc(var(--container) + var(--padding-container) * 2);
-    padding: 0 var(--padding-container);
-    margin: 0 auto;
+.currency {
+    font-weight: 400;
 }
+
 
 @media (min-widht: 480px){
     html {
@@ -77,4 +76,9 @@ fieldset {
     html {
         --container: 1290px;
     }
+}
+.container {
+    max-width: calc(var(--container) + var(--padding-container) * 2);
+    padding: 0 var(--padding-container);
+    margin: 0 auto;
 }
