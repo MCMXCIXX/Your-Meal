@@ -66,8 +66,8 @@
             </div>
         </nav>
         <section class="catalog">
-            <div class="container">
-                <div class="catalog__order order order_open">
+            <div class="container catalog__container">
+                <div class="catalog__order order ">
                     <section class="order__wrapper">
                         <div class="order__wrap-title" tabindex="0" role="button">
                             <h2 class="order__title">
@@ -77,7 +77,45 @@
                         </div>
                         <div class="order__wrap_list">
                             <ul class="order__list">
-
+                                <li class="order__item">
+                                    <img class="order__image" src="img/cotalog/super-cheesy.jpg" alt="Супер сырный бургер">
+                                    <div class="order__product">
+                                        <h3 class="order__product-title">Супер сырный</h3>
+                                        <p class="order__product-weight">512</p>
+                                        <p class="order__product-price">550<span class="currency">₽</span></p>
+                                    </div>
+                                    <div class="order__product-count count">
+                                        <button class="count__minus">-</button>
+                                        <p class="count-amount">1</p>
+                                        <button class="count__plus">+</button>
+                                    </div>
+                                </li>
+                                <li class="order__item">
+                                    <img class="order__image" src="img/cotalog/free.jpg" alt="Картошка фри">
+                                    <div class="order__product">
+                                        <h3 class="order__product-title">Картошка фри</h3>
+                                        <p class="order__product-weight">245</p>
+                                        <p class="order__product-price">450<span class="currency">₽</span></p>
+                                    </div>
+                                    <div class="order__product-count count">
+                                        <button class="count__minus">-</button>
+                                        <p class="count-amount">2</p>
+                                        <button class="count__plus">+</button>
+                                    </div>
+                                </li>
+                                <li class="order__item">
+                                    <img class="order__image" src="img/cotalog/burning-hot-dog.jpg" alt="Жгучий хот-дог">
+                                    <div class="order__product">
+                                        <h3 class="order__product-title">Жгучий хот-дог</h3>
+                                        <p class="order__product-weight">239</p>
+                                        <p class="order__product-price">550<span class="currency">₽</span></p>
+                                    </div>
+                                    <div class="order__product-count count">
+                                        <button class="count__minus">-</button>
+                                        <p class="count-amount">1</p>
+                                        <button class="count__plus">+</button>
+                                    </div>
+                                </li>
                             </ul>
                             <div class="order__total">
                                 <p>Итого</p>
@@ -98,13 +136,95 @@
                     <h2 class="catalog__title">Бургеры</h2>
                     <div class="catalog__wrap_list">
                         <ul class="catalog__list">
-
+                            <li class="catalog__item">
+                                <article class="product">
+                                    <img class="product__image" src="img/cotalog/meat-bomb.jpg" alt="Мясная бомба">
+                                    <p class="product__price">689<span class="currency">₽</span></p>
+                                    <h3 class="producta__title">
+                                        <button class="product__detail">Мясная бомба</button>
+                                    </h3>
+                                    <p class="product__weight">
+                                        520г
+                                    </p>
+                                    <button class="product__add" type="button">Добавить</button>
+                                </article>
+                            </li>
+                            <li class="catalog__item">
+                                <article class="product">
+                                    <img class="product__image" src="img/cotalog/super-cheesy.jpg" alt="Супер сырный">
+                                    <p class="product__price">550<span class="currency">₽</span></p>
+                                    <h3 class="producta__title">
+                                        <button class="product__detail">Супер сырный</button>
+                                    </h3>
+                                    <p class="product__weight">
+                                        512г
+                                    </p>
+                                    <button class="product__add" type="button">Добавить</button>
+                                </article>
+                            </li>
+                            <li class="catalog__item">
+                                <article class="product">
+                                    <img class="product__image" src="img/cotalog/satisfying.jpg" alt="Сытный">
+                                    <p class="product__price">639<span class="currency">₽</span></p>
+                                    <h3 class="producta__title">
+                                        <button class="product__detail">Сытный</button>
+                                    </h3>
+                                    <p class="product__weight">
+                                        580г
+                                    </p>
+                                    <button class="product__add" type="button">Добавить</button>
+                                </article>
+                            </li>
+                            <li class="catalog__item">
+                                <article class="product">
+                                    <img class="product__image" src="img/cotalog/timeless-classic.jpg" alt="Вечная классика">
+                                    <p class="product__price">450<span class="currency">₽</span></p>
+                                    <h3 class="producta__title">
+                                        <button class="product__detail">Вечная классика</button>
+                                    </h3>
+                                    <p class="product__weight">
+                                        450г
+                                    </p>
+                                    <button class="product__add" type="button">Добавить</button>
+                                </article>
+                            </li>
+                            <li class="catalog__item">
+                                <article class="product">
+                                    <img class="product__image" src="img/cotalog/heavy-blow.jpg" alt="Тяжелый удар">
+                                    <p class="product__price">480<span class="currency">₽</span></p>
+                                    <h3 class="producta__title">
+                                        <button class="product__detail">Тяжелый удар</button>
+                                    </h3>
+                                    <p class="product__weight">
+                                        470г
+                                    </p>
+                                    <button class="product__add" type="button">Добавить</button>
+                                </article>
+                            </li>
+                            <li class="catalog__item">
+                                <article class="product">
+                                    <img class="product__image" src="img/cotalog/Italian.jpg" alt="Итальянский">
+                                    <p class="product__price">560<span class="currency">₽</span></p>
+                                    <h3 class="producta__title">
+                                        <button class="product__detail">Итальянский</button>
+                                    </h3>
+                                    <p class="product__weight">
+                                        510г
+                                    </p>
+                                    <button class="product__add" type="button">Добавить</button>
+                                </article>
+                            </li>
                         </ul>
                     </div>
                 </div>
             </div>
         </section>
     </main>
+    <script>
+        document.querySelector('.order').onclick = function() {
+            document.querySelector('.order').classList.toggle('order_open');
+        }
+    </script>
     
 </body>
 </html>

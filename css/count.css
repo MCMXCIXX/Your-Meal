@@ -1,0 +1,23 @@
+.count {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70px;
+    height: 30px;
+    border-radius: 8px;
+    background: #F2F2F3;
+    padding: 7px 8px;
+    font-size: 12px;
+    font-weight: 400;
+}
+.count__minus, .count__plus {
+    width: 8px;
+}
+
+
+@media (min-width: 1024px){
+    .count{
+        width: 84px;
+        height: 40px;
+    }
+}
