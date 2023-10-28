@@ -29,7 +29,7 @@
 }
 .header__title-container {
     padding: 0 0 246px 0;
-    background: url(/img/header__title-bg.svg) bottom/227px no-repeat;
+    background: url(/img/header__title-bg.png) bottom/227px no-repeat;
 }
 .header__appeal {
     font-size: 12px;
